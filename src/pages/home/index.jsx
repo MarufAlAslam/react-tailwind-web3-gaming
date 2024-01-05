@@ -6,6 +6,8 @@ import SeamlessBridge from "../../components/seamless-bridge";
 import gradCircle from "../../assets/img/gradient-ellipse.png";
 import Line from "../../components/line";
 import Phone from "../../components/phone";
+import Revenue from "../../components/revenue";
+import CrossPlatform from "../../components/cross-platform";
 
 const HomePage = () => {
   return (
@@ -25,6 +27,10 @@ const HomePage = () => {
       </div>
       <Line />
       <Phone />
+      <Line />
+      <Revenue />
+      <Line />
+      <CrossPlatform />
     </div>
   );
 };
