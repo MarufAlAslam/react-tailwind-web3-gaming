@@ -8,7 +8,10 @@ import construct from "../../assets/img/construct.png";
 
 const Logos = () => {
   return (
-    <div className="logos overflow-hidden relative py-[90px] bg-black" id="logos">
+    <div
+      className="logos overflow-hidden relative py-[90px] bg-transparent"
+      id="logos"
+    >
       <div className="container relative z-20">
         <div className="flex justify-center items-center gap-[70px]">
           <img src={binance} className="logo-img" alt="" />

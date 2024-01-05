@@ -38,7 +38,7 @@ img.logo-img {
   object-fit: contain;
 }
 
-.logos::before {
+/* .logos::before {
   content: "";
   position: absolute;
   top: 0;
@@ -49,4 +49,15 @@ img.logo-img {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
+} */
+
+.slide {
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.shadow-gradient {
+  height: 500px;
+  min-width: 100%;
+  top: -200px;
 }
