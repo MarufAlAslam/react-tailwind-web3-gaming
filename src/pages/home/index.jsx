@@ -4,6 +4,8 @@ import Hero from "../../components/hero";
 import Logos from "../../components/logos";
 import SeamlessBridge from "../../components/seamless-bridge";
 import gradCircle from "../../assets/img/gradient-ellipse.png";
+import Line from "../../components/line";
+import Phone from "../../components/phone";
 
 const HomePage = () => {
   return (
@@ -21,6 +23,8 @@ const HomePage = () => {
           <SeamlessBridge />
         </div>
       </div>
+      <Line />
+      <Phone />
     </div>
   );
 };

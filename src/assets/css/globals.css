@@ -61,3 +61,12 @@ img.logo-img {
   min-width: 100%;
   top: -200px;
 }
+
+.text-grad {
+  background: linear-gradient(92deg, #dd43f2 5.44%, #2618d3 30.89%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
