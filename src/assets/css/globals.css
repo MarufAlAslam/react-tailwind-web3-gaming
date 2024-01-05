@@ -16,9 +16,19 @@ html {
 }
 
 header {
-  background: linear-gradient(180deg, #000 16.1%, rgba(0, 0, 0, 0) 107.2%);
+  background: black;
 }
 .grad-btn {
   border-radius: 30px;
   background: linear-gradient(91deg, #dd43f2 1.09%, #2618d3 99.64%);
+}
+
+/* hero */
+.hero {
+  background-image: linear-gradient(180deg, #000, rgba(0, 0, 0, 0.5)),
+    url("../img/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
 }
