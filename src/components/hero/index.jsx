@@ -49,7 +49,10 @@ const Hero = () => {
         </div>
 
         <div className="text-center mt-[90px]">
-          <Link to={"/"} className="text-white text-lg grad-btn py-[12px] px-[24px]">
+          <Link
+            to={"./#logos"}
+            className="text-white text-lg grad-btn py-[12px] px-[24px]"
+          >
             Explore
           </Link>
         </div>

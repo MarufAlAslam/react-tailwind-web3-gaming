@@ -32,3 +32,21 @@ header {
   background-position: center;
   padding: 50px 0;
 }
+
+img.logo-img {
+  height: 40px;
+  object-fit: contain;
+}
+
+.logos::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/gradient-ellipse.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
